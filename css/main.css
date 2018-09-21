@@ -1,0 +1,52 @@
+html {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: #f7f7f7;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+.info {
+  transform: rotate(-10deg);
+  transition: 1s ease-out;
+}
+
+.info:hover {
+  transform: rotate(0deg);
+  transition: .5s ease-in;
+
+}
+
+.site {
+  background-color: #5d5d5e;
+}
+
+hr {
+   border-width: 10px;
+   border-style: dashed;
+   border-color: #38383a;
+   opacity: .4;
+}
+
+.vines {
+  opacity: .2;
+}
+
+.duder {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.overflow {
+  overflow: hidden;
+}
